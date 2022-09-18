@@ -1,4 +1,4 @@
-Debian or Ubuntu: Flatpak, snap and apt required.
+Debian or Ubuntu: Flatpak, snap and apt are required.
 
 How to download and install (copy & paste to terminal): 
 
