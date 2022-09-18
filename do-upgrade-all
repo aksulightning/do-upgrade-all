@@ -5,11 +5,20 @@ echo ""
 echo ""
 echo "---"
 echo "Updating from apt"
+if command -v apt &> /dev/null
+then
 sudo bash -c "apt update && apt -y upgrade"
+fi
 echo "---"
 echo "Updating from flatpak"
+if command -v flatpak &> /dev/null
+then
 sudo bash -c "flatpak update"
+fi
 echo "---"
 echo "Updating from snap"
+if command -v snap &> /dev/null
+then
 sudo bash -c "snap refresh"
+fi
 echo "---"
