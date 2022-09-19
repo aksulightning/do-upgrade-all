@@ -1,6 +1,6 @@
 # do-upgrade-all
 
-This script checks if you have known installed package managements does exists on current installation, then script upgrades all installed including packages, libraries and programs on your system.
+This script checks if you have known package managements exist on your current installation, then script does update for all installed packages, libraries and programs.
 
 Debian or Ubuntu: apt, flatpak and snap are required.
 
